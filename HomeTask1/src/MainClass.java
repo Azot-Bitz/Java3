@@ -45,8 +45,8 @@ public class MainClass {
         System.out.println("Box 4: "+ap1.getWeight());
         arrToArrayList();
 
-       arr[0] = new Cat("Vaska", "black", 3);
-       arr[1] = new Cat("Dolka", "white", 7);
+       arr[0] = new Cat("Vas'ka", "black", 3);
+       arr[1] = new Cat("Dol'ka", "white", 7);
        arr[2] = new Cat("Mas'ka", "brown", 5);
 
         for (int i = 0; i< arr.length; i++){
