@@ -50,7 +50,7 @@ public class ClientHandler {
                                 } catch (InterruptedException | IOException e) {
                                    e.printStackTrace();
                                 }finally {
-                                    executorService.shutdownNow();
+                                    executorService.shutdown();
                                 }
                             }
                         }
@@ -95,19 +95,19 @@ public class ClientHandler {
 //                }
 //            }).start();
 
-            new Thread(() -> {
-                try {
-                    authentication();
-                    readMessages();
-                } catch (IOException | SQLException e) {
-                    e.printStackTrace();
-                } finally {
-                    closeConnection();
-                }
-            });
-        } catch (IOException e) {
-            throw new RuntimeException("Проблемы при создании обработчика клиента");
-        }
+//            new Thread(() -> {
+//                try {
+//                    authentication();
+//                    readMessages();
+//                } catch (IOException | SQLException e) {
+//                    e.printStackTrace();
+//                } finally {
+//                    closeConnection();
+//                }
+//            });
+ } catch (IOException e) {
+//            throw new RuntimeException("Проблемы при создании обработчика клиента");
+       }
     }
 
     public void authentication() throws IOException, SQLException {
