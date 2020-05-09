@@ -6,6 +6,7 @@ public class Car  implements Runnable{
     static {
         CARS_COUNT = 0;
     }
+    CyclicBarrier cbar;
     private Race race;
     private int speed;
     private String name;
@@ -15,20 +16,22 @@ public class Car  implements Runnable{
     public int getSpeed() {
         return speed;
     }
-    public Car(Race race, int speed) {
+    public Car(CyclicBarrier c, Race race, int speed) {
         this.race = race;
+        cbar = c;
         this.speed = speed;
         CARS_COUNT++;
         this.name = "Участник #" + CARS_COUNT;
     }
     @Override
     public void run() {
-        CyclicBarrier cb = new CyclicBarrier(4);
+
         try {
+
             System.out.println(this.name + " готовится");
             Thread.sleep(500 + (int)(Math.random() * 800));
             System.out.println(this.name + " готов");
-            cb.await();
+            cbar.await();
             System.out.println("ВАЖНОЕ ОБЪЯВЛЕНИЕ >>> Гонка началась!!!");
 
         } catch (Exception e) {
