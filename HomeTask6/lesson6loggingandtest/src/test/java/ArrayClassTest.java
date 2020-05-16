@@ -10,7 +10,7 @@ public class ArrayClassTest {
     }
     @Test
     public void testArr(){
-        int [] arr = {1, 2, 2, 3, 4, 1, 7};
+        int [] arr = {1, 2, 2, 4, 3, 4, 5, 4, 1, 7};
         int [] arr2 = {1, 7};
         Assert.assertArrayEquals(arr2, firstTest.changeArray(arr));
     }
