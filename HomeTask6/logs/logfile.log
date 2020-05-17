@@ -1,0 +1,47 @@
+INFO  2020-05-14 17:16:15 [main] dev.astamur.geekbrains.lessons.lesson7.server.MyServer (MyServer.java:31) - Сервер ожидает подключения
+INFO  2020-05-14 17:16:52 [main] dev.astamur.geekbrains.lessons.lesson7.server.MyServer (MyServer.java:33) - Клиент подключился
+INFO  2020-05-14 17:16:52 [main] dev.astamur.geekbrains.lessons.lesson7.server.MyServer (MyServer.java:31) - Сервер ожидает подключения
+INFO  2020-05-14 17:17:11 [pool-2-thread-2] dev.astamur.geekbrains.lessons.lesson7.server.ClientHandler (ClientHandler.java:133) - Пользователь : Pol зашел в чат
+ERROR 2020-05-14 17:17:18 [pool-2-thread-1] dev.astamur.geekbrains.lessons.lesson7.server.ClientHandler (ClientHandler.java:55) - Timeout for client
+java.lang.InterruptedException: sleep interrupted
+	at java.lang.Thread.sleep(Native Method) ~[?:?]
+	at dev.astamur.geekbrains.lessons.lesson7.server.ClientHandler.lambda$new$0(ClientHandler.java:47) ~[classes/:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+INFO  2020-05-14 17:26:50 [main] dev.astamur.geekbrains.lessons.lesson7.server.MyServer (MyServer.java:31) - Сервер ожидает подключения
+INFO  2020-05-14 17:27:10 [main] dev.astamur.geekbrains.lessons.lesson7.server.MyServer (MyServer.java:33) - Клиент подключился
+INFO  2020-05-14 17:27:10 [main] dev.astamur.geekbrains.lessons.lesson7.server.MyServer (MyServer.java:31) - Сервер ожидает подключения
+INFO  2020-05-14 17:27:21 [pool-2-thread-2] dev.astamur.geekbrains.lessons.lesson7.server.ClientHandler (ClientHandler.java:133) - Пользователь : Pol зашел в чат
+INFO  2020-05-14 17:27:37 [pool-2-thread-2] dev.astamur.geekbrains.lessons.lesson7.server.ClientHandler (ClientHandler.java:150) - Сообщение от Pol -> Hello!
+INFO  2020-05-14 17:27:50 [main] dev.astamur.geekbrains.lessons.lesson7.server.MyServer (MyServer.java:33) - Клиент подключился
+INFO  2020-05-14 17:27:50 [main] dev.astamur.geekbrains.lessons.lesson7.server.MyServer (MyServer.java:31) - Сервер ожидает подключения
+INFO  2020-05-14 17:28:01 [pool-3-thread-2] dev.astamur.geekbrains.lessons.lesson7.server.ClientHandler (ClientHandler.java:133) - Пользователь : John зашел в чат
+INFO  2020-05-14 17:28:07 [pool-3-thread-2] dev.astamur.geekbrains.lessons.lesson7.server.ClientHandler (ClientHandler.java:150) - Сообщение от John -> /w Pol Hay!
+INFO  2020-05-14 17:28:07 [pool-3-thread-2] dev.astamur.geekbrains.lessons.lesson7.server.ClientHandler (ClientHandler.java:160) - Личное сообщение от John - > Pol :
+INFO  2020-05-14 17:28:40 [pool-3-thread-2] dev.astamur.geekbrains.lessons.lesson7.server.ClientHandler (ClientHandler.java:150) - Сообщение от John -> /end
+INFO  2020-05-14 17:28:40 [pool-3-thread-2] dev.astamur.geekbrains.lessons.lesson7.server.ClientHandler (ClientHandler.java:178) - Клиент John вышел из чата
+ERROR 2020-05-14 17:28:40 [pool-3-thread-1] dev.astamur.geekbrains.lessons.lesson7.server.ClientHandler (ClientHandler.java:55) - Timeout for client
+java.lang.InterruptedException: sleep interrupted
+	at java.lang.Thread.sleep(Native Method) ~[?:?]
+	at dev.astamur.geekbrains.lessons.lesson7.server.ClientHandler.lambda$new$0(ClientHandler.java:47) ~[classes/:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+INFO  2020-05-14 17:28:48 [pool-2-thread-2] dev.astamur.geekbrains.lessons.lesson7.server.ClientHandler (ClientHandler.java:150) - Сообщение от Pol -> /end
+INFO  2020-05-14 17:28:48 [pool-2-thread-2] dev.astamur.geekbrains.lessons.lesson7.server.ClientHandler (ClientHandler.java:178) - Клиент Pol вышел из чата
+ERROR 2020-05-14 17:28:48 [pool-2-thread-1] dev.astamur.geekbrains.lessons.lesson7.server.ClientHandler (ClientHandler.java:55) - Timeout for client
+java.lang.InterruptedException: sleep interrupted
+	at java.lang.Thread.sleep(Native Method) ~[?:?]
+	at dev.astamur.geekbrains.lessons.lesson7.server.ClientHandler.lambda$new$0(ClientHandler.java:47) ~[classes/:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+INFO  2020-05-14 17:29:36 [main] dev.astamur.geekbrains.lessons.lesson7.server.MyServer (MyServer.java:33) - Клиент подключился
+INFO  2020-05-14 17:29:36 [main] dev.astamur.geekbrains.lessons.lesson7.server.MyServer (MyServer.java:31) - Сервер ожидает подключения
+INFO  2020-05-14 17:29:46 [pool-4-thread-2] dev.astamur.geekbrains.lessons.lesson7.server.ClientHandler (ClientHandler.java:133) - Пользователь : Pol зашел в чат
+INFO  2020-05-14 17:29:54 [main] dev.astamur.geekbrains.lessons.lesson7.server.MyServer (MyServer.java:33) - Клиент подключился
+INFO  2020-05-14 17:29:54 [main] dev.astamur.geekbrains.lessons.lesson7.server.MyServer (MyServer.java:31) - Сервер ожидает подключения
+INFO  2020-05-14 17:30:06 [pool-5-thread-2] dev.astamur.geekbrains.lessons.lesson7.server.ClientHandler (ClientHandler.java:133) - Пользователь : John зашел в чат
+INFO  2020-05-14 17:30:18 [pool-5-thread-2] dev.astamur.geekbrains.lessons.lesson7.server.ClientHandler (ClientHandler.java:150) - Сообщение от John -> /w Pol Why?
+INFO  2020-05-14 17:30:18 [pool-5-thread-2] dev.astamur.geekbrains.lessons.lesson7.server.ClientHandler (ClientHandler.java:160) - Личное сообщение от John - > Pol :

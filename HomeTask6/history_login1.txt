@@ -1,0 +1,20 @@
+Pol: hello!
+John зашел в чат
+Logan зашел в чат
+Logan: hey!
+John: hi everybody!
+Logan вышел из чата
+Pol: hay
+John зашел в чат
+John: hello!
+ вышел из чата
+John зашел в чат
+John вышел из чата
+John зашел в чат
+John вышел из чата
+Pol: Hello!
+John зашел в чат
+John: Hay!
+John вышел из чата
+John зашел в чат
+John: Why?
